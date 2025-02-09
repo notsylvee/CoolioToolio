@@ -5,7 +5,7 @@ module.exports = {
   once: true,
   async execute(client) {
     client.user.setPresence({
-      status: "dnd",
+      status: "idle",
       activities: [
         {
           type: ActivityType.Custom,

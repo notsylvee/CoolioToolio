@@ -8,11 +8,22 @@ module.exports = {
     async execute(interaction) {
 
         const voicelines = [
-            "Yellow.",
-            "Yellow!"
+            "Yellow._3",
+            "Yellow._4",
+            "Yellow._5",
+            "Yellow._6",
+            "Yellow._7",
+            "Yellow_8",
         ];
         const voiceline = voicelines[Math.floor(Math.random() * voicelines.length)];
     
-        await interaction.reply({ content: `${voiceline}`, ephemeral: false });
+        await interaction.reply({
+            content: `Yellow.`,
+            files:[{
+                attachment: `sounds/${voiceline}.mp3`,
+                name: `${voiceline}.mp3`
+            }],
+            ephemeral: false
+        });
       },
 }

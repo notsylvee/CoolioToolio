@@ -8,12 +8,12 @@ module.exports = {
     async execute(interaction) {
 
         const voicelines = [
-            "Yellow._3",
-            "Yellow._4",
-            "Yellow._5",
-            "Yellow._6",
-            "Yellow._7",
-            "Yellow_8",
+            "Yellow1",
+            "Yellow2",
+            "Yellow3",
+            "Yellow4",
+            "Yellow5",
+            "Yellow6",
         ];
         const voiceline = voicelines[Math.floor(Math.random() * voicelines.length)];
     

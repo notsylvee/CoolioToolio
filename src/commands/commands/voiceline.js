@@ -23,7 +23,6 @@ module.exports = {
                 attachment: `sounds/${voiceline}.mp3`,
                 name: `${voiceline}.mp3`
             }],
-            ephemeral: false
         });
       },
 }
